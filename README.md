@@ -4,6 +4,11 @@ A small detection pipeline: read telemetry, store it in SQLite, run rules, and r
 
 Writing an alert is easy. Knowing whether it is worth an analyst's time needs two things most side projects skip: a dataset with ground truth, and a number. This repo has both.
 
+
+<img width="1200" height="1300" alt="image" src="https://github.com/user-attachments/assets/d95a9f19-d119-4ffe-b7ec-8bcf3bc752e1" />
+
+
+
 ```
 JSON Lines ──► SQLite ──► 6 rules ──► alerts ──► precision / recall
 ```
