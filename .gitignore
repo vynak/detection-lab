@@ -1,0 +1,7 @@
+bin/
+*.exe
+*.db
+*.db-shm
+*.db-wal
+report.html
+.shots/
